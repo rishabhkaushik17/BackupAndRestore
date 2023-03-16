@@ -1,4 +1,8 @@
 Exercise 4: Back up and restore
 
 1. mysqldump --databases rish > /Users/rishabhkaushik/Desktop/Vinsol/rish.sql
-2. mysql < /Users/rishabhkaushik/Desktop/Vinsol/rish.sql
+
+# Run in mysql 
+CREATE DATABASE restored;
+
+2. mysql restored < /Users/rishabhkaushik/Desktop/Vinsol/rish.sql
